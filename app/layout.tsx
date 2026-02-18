@@ -11,15 +11,17 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Grinding Vision',
+    template: '%s | Grinding Vision',
   },
-  description: 'This is my portfolio.',
+  description:
+    'Grinding Vision is a mobile game studio creating original games for players worldwide.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Grinding Vision',
+    description:
+      'Grinding Vision is a mobile game studio creating original games for players worldwide.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Grinding Vision',
     locale: 'en_US',
     type: 'website',
   },
