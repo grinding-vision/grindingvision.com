@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 }
 
 export default function PrivacyPolicyPage() {
-  const updatedAt = 'February 26, 2026'
+  const updatedAt = 'February 18, 2026'
 
   return (
     <section>
@@ -38,11 +38,6 @@ export default function PrivacyPolicyPage() {
         <p>Depending on the game and your device settings, we may collect:</p>
         <ul>
           <li>
-            <strong>Network identifiers:</strong> IP address used for security,
-            fraud prevention, basic geolocation (country/region level), and
-            service operations.
-          </li>
-          <li>
             <strong>Support data:</strong> email address and messages you send
             to support.
           </li>
@@ -54,8 +49,7 @@ export default function PrivacyPolicyPage() {
           </li>
           <li>
             <strong>Device and technical data:</strong> device model, OS
-            version, language, app version, identifiers (including advertising
-            identifier where applicable), and approximate region.
+            version, language, app version, identifiers, and approximate region.
           </li>
           <li>
             <strong>Crash and diagnostics data:</strong> crash traces, non-fatal
@@ -113,8 +107,7 @@ export default function PrivacyPolicyPage() {
         <p>
           Block Flow currently uses Firebase Analytics, Firebase Crashlytics, and
           Firebase Cloud Messaging to support analytics, diagnostics, and
-          notifications. If ads are enabled, we may also use Appodeal and its
-          demand partners for ad mediation and ad delivery.
+          notifications.
         </p>
 
         <h2>5. Data Retention</h2>
@@ -190,11 +183,6 @@ export default function PrivacyPolicyPage() {
           <li>
             <a href="https://policies.google.com/privacy" rel="noreferrer" target="_blank">
               Google Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="https://www.appodeal.com/privacy-policy" rel="noreferrer" target="_blank">
-              Appodeal Privacy Policy
             </a>
           </li>
         </ul>
